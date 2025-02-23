@@ -1,4 +1,4 @@
-module example/hello
+module go-helloworld-api
 
 go 1.24.0
 

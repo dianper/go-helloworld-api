@@ -5,11 +5,10 @@ import (
 	"rsc.io/quote/v4"
 )
 
-func main(name string) string {
+func Hello(name string) string {
 	fmt.Println("Hello, World!")
 	fmt.Println(quote.Hello())
 
-	message := fmt.Sprintf("Hi, %v. Welcome!%", name)
-
-	return 
+	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	return message
 }

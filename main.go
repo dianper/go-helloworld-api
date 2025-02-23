@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"example/hello"
+	"go-helloworld-api/hello"
 )
 
 func main() {
